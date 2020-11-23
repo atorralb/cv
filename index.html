@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Javier Portfolio</title>  
+  <!--  bootstrap css file  -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">  
+  <!--  font awesome icons  -->
+  <link rel="stylesheet" href="./css/all.min.css">
+  <!-- google fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+  <!--  custom css file  -->
+  <link rel="stylesheet" href="./css/desktop.css">  
+  <!--  responsive css file  -->
+  <link rel="stylesheet" href="./css/mobile.css">
+</head>
+
+<body>
+  <!--  ======================= start header area ============================== -->
+  <header>
+      <!-- start navigation area -->
+      <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">
+            <i class="fas fa-terminal fa-1x mx-1"></i> Portfolio
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fas fa-align-right text-light"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mr-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">HOME
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#games">GAMES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- end navigation area -->
+
+
+      <!-- start top area -->
+      <div class="container">
+        <div class="row">
+
+          <!-- portrait -->
+          <div class="top-portrait col-md-6 col-sm-6">
+              <img src="./img/me.png" alt="Portrait"/>
+          </div>
+
+           <!-- text -->
+          <div class="top-text col-md-6 col-sm-6">
+              <h3 class="title-text">Hi there!</h3>
+              <h1 class="title-text text-uppercase">I am Javier</h1>
+            <h4 class="title-text text-uppercase">Game Engine Programmer</h4>
+            <div class="site-icons">
+              <!-- <div class="d-flex flex-row flex-wrap"></div> -->
+                <a href="https://www.linkedin.com/in/jabilax/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/jabilax"><i class="fab fa-github"></i></a>
+                <a href="https://www.youtube.com/user/jabilax"><i class="fab fa-youtube"></i></a>
+                <a href="https://twitter.com/the_jabilax"><i class="fab fa-twitter"></i></a>
+                <a href="mailto: jabilax@gmail.com"><i class="fas fa-envelope"></i></a>
+              <!-- </div> -->
+            </div>
+          </div> 
+        </div>
+      </div>
+      <!-- end top area -->
+
+    </header>
+  <!--  ======================= end header area ============================== -->
+
+
+
+  <!--  ======================= start main area ================================ -->
+  <main class="site-main">
+    
+    <!--  ========================= about area ==========================  -->
+    <section class="about-area" id="about">
+      <div class="container-fluid">
+          <div class="row">
+
+            <!--  about me -->
+            <div class="about-title col-lg-7 col-md-12">
+                <h2 class="text-uppercase">
+                    <span>About Me</span>
+                </h2>
+
+                <div class="paragraph py-4 w-75">
+                    <p class="para">
+                        I am a student at Digipen Institute of Technology Europe Bilbao. I will 
+                        finish in April a degree in computer science in realtime interactive 
+                        simulation. (RTIS)
+                    </p>
+                    <p class="para">
+                      During my degree, I developed in a team, several games with their corresponding 
+                      engine and set of tools, from scratch in C++. I worked always in the more technical 
+                      side of the development, and therefore, I have experience with C++, Multi-Threading, 
+                      Architecture Designs, OpenGL, and some others. In the present, Engine, Graphics and Tools 
+                      are the topics I love the most.
+                    </p>
+                </div>
+                <a type="button" class="btn button primary-button text-uppercase" href="./Javier's Resume.pdf" download>Download CV</a>
+                <!-- href="Javier's Resume.pdf" -->
+            </div>
+
+            <!-- image -->
+            <div class="col-lg-5 col-md-12">
+              <div class="about-image">
+                <img src="./img/digipen.jpg" alt="About us" class="img-fluid">
+              </div>
+            </div>
+
+          </div>
+      </div>
+    </section>
+    <!--  ========================= end about area ==========================  -->
+
+
+
+    <!--  ======================= start games area =============================  -->
+    <section class="games-area">
+      <div class="container" id="games">   
+
+        <div class="games-title">
+            <h1 class="text-uppercase text-center">GAMES</h1>
+        </div>
+
+        <div class="row grid">
+     
+          <div class="col-lg-6 col-md-6 col-sm-12 element-item latest">
+            <div class="game">
+              <div class="white">
+                <div class="img">
+                  <a class="test-popup-link" href="./quest4papa.html">
+                    <img src="./img/ques4papa.png" alt="QUEST 4 PAPA: RELOADED" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">QUEST 4 PAPA: RELOADED (WIP)</h4>
+                <span class="text-secondary">4th year project, Unreal Engine 4</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 element-item popular">
+            <div class="game">
+              <div class="white">
+                <div class="img">
+                  <a class="test-popup-link" href="https://www.youtube.com/watch?v=aSSAUqdGUII"> 
+                    <img src="./img/seedquest.png" alt="portfolio-2" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">SEED QUEST</h4>
+                <span class="text-secondary">3rd year project, Custom Engine C++</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 element-item popular">
+            <div class="game">
+              <div class="white">
+                <div class="img">
+                  <a class="test-popup-link" href="https://www.digipen.es/showcase/student-games/jera">
+                    <img src="./img/jera.jpg" alt="JERA" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">JERA</h4>
+                <span class="text-secondary">2nd year project, Custom Engine C++</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 element-item upcoming">
+            <div class="game">
+              <div class="white">
+                <div class="img">
+                  <a class="test-popup-link" href="https://www.digipen.es/showcase/student-games/ion-drift">
+                    <img src="./img/ion-drift.png" alt="Ion Drift" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">ION DRIFT</h4>
+                <span class="text-secondary">1st year project, Custom Engine C++</span>
+              </div>
+            </div>
+          </div>  
+
+        </div>
+
+      </div>
+    </section>
+    <!--  ======================= end games area =============================  -->
+
+
+    <!--  ======================= start projects area =============================  -->
+    <section class="projects-area">
+      <div class="container" id="projects">    
+
+        <div class="project-title">
+          <h1 class="text-uppercase text-center">PERSONAL PROJECTS</h1>
+        </div>
+          
+        <div class="row grid">
+            
+          <div class="col-lg-4 col-md-4 col-sm-6 element-item latest">
+            <div class="game">
+              <div class="white">
+                <div class="img">
+                  <a class="test-popup-link" href="./img/projects/advanced-graphics-pbr.png">
+                    <img src="./img/projects/advanced-graphics-pbr.png" alt="PBR renderer" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">PBR renderer</h4>
+                <!-- <span class="text-secondary">asd</span> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6 element-item latest">
+            <div class="game">
+              <div class="white">
+                <div class="img">
+                  <a class="test-popup-link" href="./img/projects/behaviour_tree-tool.png">
+                    <img src="./img/projects/behaviour_tree-tool.png" alt="TEST" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Behaviour Tree Tool</h4>
+                <!-- <span class="text-secondary">asd</span> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6 element-item latest">
+            <div class="game">
+              <div class="white">
+                <div class="img">
+                  <a class="test-popup-link" href="./img/projects/2d-rotational-physics.png">
+                    <img src="./img/projects/2d-rotational-physics.png" alt="2D Physics Engine" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Physics Framework</h4>
+                <!-- <span class="text-secondary">asd</span> -->
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-4 col-sm-6 element-item latest">
+            <div class="game">
+              <div class="white">
+                <div class="img">
+                  <a class="test-popup-link" href="./img/projects/cloth-simulation.png">
+                    <img src="./img/projects/cloth-simulation.png" alt="2D Physics Engine" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Cloth Simulation</h4>
+                <!-- <span class="text-secondary">asd</span> -->
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-4 col-sm-6 element-item latest">
+            <div class="game">
+              <div class="white">
+                <div class="img">
+                  <a class="test-popup-link" href="./img/projects/animations.png">
+                    <img src="./img/projects/animations.png" alt="Animation System" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Animation System</h4>
+                <!-- <span class="text-secondary">asd</span> -->
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-4 col-sm-6 element-item latest">
+            <div class="game">
+              <div class="white">
+                <div class="img">
+                  <a class="test-popup-link" href="./img/projects/space-partitioning.png">
+                    <img src="./img/projects/space-partitioning.png" alt="Space Partitioning" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Space Partitioning</h4>
+                <!-- <span class="text-secondary">asd</span> -->
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-4 col-sm-6 element-item latest">
+            <div class="game">
+              <div class="white">
+                <div class="img">
+                  <a class="test-popup-link" href="./img/projects/data-oriented-engine.png">
+                    <img src="./img/projects/data-oriented-engine.png" alt="Data oriented engine" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Basic Game engine</h4>
+                <!-- <span class="text-secondary">asd</span> -->
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-4 col-sm-6 element-item latest">
+            <div class="game">
+              <div class="white">
+                <div class="img">
+                  <a class="test-popup-link" href="./img/projects/deep-learning.png">
+                    <img src="./img/projects/deep-learning.png" alt="Deep learning AI" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Deep learning AI</h4>
+                <!-- <span class="text-secondary">asd</span> -->
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-4 col-sm-6 element-item latest">
+            <div class="game">
+              <div class="white">
+                <div class="img">
+                  <a class="test-popup-link" href="./img/projects/autotilemap.png">
+                    <img src="./img/projects/autotilemap.png" alt="Autotilemap Tool" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Autotilemap Tool</h4>
+                <!-- <span class="text-secondary">asd</span> -->
+              </div>
+            </div>
+          </div>
+
+        </div>       
+      </section>
+      <!--  ======================= end projects area =============================  -->  
+
+    <!--  ======================= start message area =============================  -->
+    <section class="message-area">
+      <div class="container" id="contact">
+        <div class="message-title">
+          <h2 class="text-uppercase text-muted">This website is work in progress</h2>
+        </div>
+      </div>
+    </section>
+    <!--  ======================= end message area =============================  -->
+
+
+  </main>
+  <!--  ======================= End Main Area ================================ -->
+
+  <footer>
+    <div class="container">
+        <div class="col-md-12 col-sm-12">
+          <p class="pt-4 text-muted text-center">Copyright ©2020 All rights reserved |
+            <span>Javier Gimenez</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--  jquery js file  -->
+  <script src="./js/jquery.3.4.1.js"></script>
+
+  <!--  bootstrap js file  -->
+  <script src="./js/bootstrap.min.js"></script>
+
+  <!--  isotope js library  -->
+  <script src="./vendor/isotope/isotope.min.js"></script>
+
+  <!--  magnific popup script file  -->
+  <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+
+  <!--  wwl-carousel js file  -->
+  <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
+  <!--  custom js file  -->
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
